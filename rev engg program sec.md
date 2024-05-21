@@ -45,3 +45,19 @@ we also find that the key is being manipulated
  "xheca"
 
 flag: "pwn.college{kZxlWNu39Yn40JjtyDCEtW0HBOw.01M1IDL0QTMyUzW}"
+
+
+______________________________________________________________________________________
+
+# level 2.1
+found the key in a function though ghidra
+"lodoc"
+we iss its being manipulated and the 2nd nad 3rd bits are being replaced so we put the new key as
+"loodc"
+and we get the flag
+![image](https://github.com/adwait3/pwn-colez/assets/148553626/9a4fc6c0-26c3-4f2d-bc09-a76cf2f72301)
+this is where the manipulation takes place 
+
+"local_16._2_1_" means the second bit 
+
+flag: "pwn.college{g0LFemLGXiSlYFf0rmIfNvLPahe.0FN1IDL0QTMyUzW}"
