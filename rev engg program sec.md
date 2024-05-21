@@ -61,3 +61,14 @@ this is where the manipulation takes place
 "local_16._2_1_" means the second bit 
 
 flag: "pwn.college{g0LFemLGXiSlYFf0rmIfNvLPahe.0FN1IDL0QTMyUzW}"
+______________________________________________________________________________________
+
+# level 3.0
+found the key in a function though ghidra
+"qxkah"
+we have to reverse this 
+"hakxq"
+and we get the flag
+
+flag: "pwn.college{M1L8O1SZCiwkoQD54PzzwBlV-vb.0VN1IDL0QTMyUzW}"
+
