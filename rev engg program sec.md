@@ -113,15 +113,18 @@ converting this to decimal
 "mehsg"
 and we get the flag
 
-flag: "pwn.college{IRIlfAj9RZqa3zdiBx5Hok8STCv.0FO1IDL0QTMyUzW}"
+flag: "pwn.college{ANwP_AoWuZKeB7IqA1lZRci-0D_.0VO1IDL0QTMyUzW}"
 
 ______________________________________________________________________________________
 
 # level 5.1
 found the key in a function though ghidra
-"biyzz"
-the program is performing a bubble sort so we just have to reverse that or just enter those particular bytes in any order
-"biyzz"
+"a0 a0 bc ab ae"
+xor key = "0xda"
+after xor "7a 7a 66  71 74"
+after reversing this to ascii
+"zzfqt"
+putting this 
 and we get the flag
 
-flag: "pwn.college{IRIlfAj9RZqa3zdiBx5Hok8STCv.0FO1IDL0QTMyUzW}"
+flag: "pwn.college{A7CFOKo-CYwiVuer7B_7f1cMsmS.0FM2IDL0QTMyUzW}"
