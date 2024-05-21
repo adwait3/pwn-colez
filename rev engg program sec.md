@@ -128,3 +128,15 @@ putting this
 and we get the flag
 
 flag: "pwn.college{A7CFOKo-CYwiVuer7B_7f1cMsmS.0FM2IDL0QTMyUzW}"
+______________________________________________________________________________________
+
+# level 6.0
+
+
+flag: "pwn.college{A7CFOKo-CYwiVuer7B_7f1cMsmS.0FM2IDL0QTMyUzW}"
+______________________________________________________________________________________
+
+# level 6.1
+
+
+flag: "pwn.college{A7CFOKo-CYwiVuer7B_7f1cMsmS.0FM2IDL0QTMyUzW}"
