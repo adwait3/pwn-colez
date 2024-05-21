@@ -1,4 +1,4 @@
-![image](https://github.com/adwait3/pwn-colez/assets/148553626/e02cfe1f-7a91-4018-83c6-f69926e4f30c)___________________________________
+_________________________________
 # level 1.0
 opened the program in ghidra and found a variable named expected result so opeened it and foun the value to be 
 ```
