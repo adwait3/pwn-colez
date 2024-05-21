@@ -34,3 +34,12 @@ We will now set the following in preparation for your code:
   [0x404b48] = 0xffffffffffffffff
   rdi = 0x404350
   rsi = 0x404b48
+
+
+
+
+  ______________________________________________________________________
+
+  # lvl 30
+  flag 
+  'pwn.college{MLzCLKNQtI2x9682P8Alfyrn3sR.0lNxIDL0QTMyUzW}'
