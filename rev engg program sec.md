@@ -82,3 +82,24 @@ and we get the flag
 
 flag: "pwn.college{ILI3O-DsTEe0GtjmRI_r85NIWJl.0lN1IDL0QTMyUzW}"
 
+______________________________________________________________________________________
+
+# level 4.0
+found the key in a function though ghidra
+"bfpwx"
+the program is performing a bubble sort so we just have to reverse that or just enter those particular bytes in any order
+"bfpwx"
+and we get the flag
+
+flag: "pwn.college{UeQzj2JFiv2XaA_N7-0dXkx0Cvd.01N1IDL0QTMyUzW}"
+
+______________________________________________________________________________________
+
+# level 4.1
+found the key in a function though ghidra
+"biyzz"
+the program is performing a bubble sort so we just have to reverse that or just enter those particular bytes in any order
+"biyzz"
+and we get the flag
+
+flag: "pwn.college{IRIlfAj9RZqa3zdiBx5Hok8STCv.0FO1IDL0QTMyUzW}"
