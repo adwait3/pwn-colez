@@ -103,3 +103,25 @@ the program is performing a bubble sort so we just have to reverse that or just 
 and we get the flag
 
 flag: "pwn.college{IRIlfAj9RZqa3zdiBx5Hok8STCv.0FO1IDL0QTMyUzW}"
+
+______________________________________________________________________________________
+
+# level 5.0
+found the key in a function though ghidra
+"6d 65 68 73 67"
+converting this to decimal
+"mehsg"
+and we get the flag
+
+flag: "pwn.college{IRIlfAj9RZqa3zdiBx5Hok8STCv.0FO1IDL0QTMyUzW}"
+
+______________________________________________________________________________________
+
+# level 5.1
+found the key in a function though ghidra
+"biyzz"
+the program is performing a bubble sort so we just have to reverse that or just enter those particular bytes in any order
+"biyzz"
+and we get the flag
+
+flag: "pwn.college{IRIlfAj9RZqa3zdiBx5Hok8STCv.0FO1IDL0QTMyUzW}"
