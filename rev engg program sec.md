@@ -71,4 +71,14 @@ we have to reverse this
 and we get the flag
 
 flag: "pwn.college{M1L8O1SZCiwkoQD54PzzwBlV-vb.0VN1IDL0QTMyUzW}"
+______________________________________________________________________________________
+
+# level 3.1
+found the key in a function though ghidra
+"cyeqg"
+we have to reverse this 
+"gqeyc"
+and we get the flag
+
+flag: "pwn.college{ILI3O-DsTEe0GtjmRI_r85NIWJl.0lN1IDL0QTMyUzW}"
 
