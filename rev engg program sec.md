@@ -1,4 +1,4 @@
-_________________________________________________________________
+![image](https://github.com/adwait3/pwn-colez/assets/148553626/c4247e3e-0abc-4980-a2c2-d46556f40eb2)_________________________________________________________________
 # level 1.0
 opened the program in ghidra and found a variable named expected result so opeened it and foun the value to be 
 ```
@@ -29,3 +29,19 @@ using this we get the flag
 
 flag: "pwn.college{svdTwK4idyY8wYnzcWwl_VOsLZ9.0lM1IDL0QTMyUzW}"
 
+______________________________________________________________________________________
+
+# level 2.0
+found the key in a function though ghidra
+"xaech"
+
+![Screenshot 2024-05-21 143424](https://github.com/adwait3/pwn-colez/assets/148553626/c36af266-0e19-4d54-9d63-3885dc3dd861)
+
+we also find that the key is being manipulated 
+
+![Screenshot 2024-05-21 143710](https://github.com/adwait3/pwn-colez/assets/148553626/11b5f653-5935-4627-81c9-10a2f57b2480)
+
+ considering this key becomes 
+ "xheca"
+
+flag: "pwn.college{kZxlWNu39Yn40JjtyDCEtW0HBOw.01M1IDL0QTMyUzW}"
