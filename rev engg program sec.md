@@ -132,6 +132,23 @@ ________________________________________________________________________________
 
 # level 6.0
 
+first our input is sawpped at 12 and 16 index 
+
+the nits xored with key '0xe03c' odd bits by '3c' even bits by 'e0'
+
+then its sorted
+
+reversing xor
+'e075 e077 e072 e073 e069 e069 e065 e061 e0be e0ba e0b4 e0b7 e0b1 e0af e0af e0af e0aa'
+
+after swapping index
+
+'e075 e077 e072 e073 e069 e069 e065 e061 e0be e0ba e0b4 e0b7 e0aa e0af e0af e0af e0b1'
+
+
+exoexted result
+'49 4b 4e 4f 55 55 59 5d 82 86 88 8b 8d 93 93 93 96'
+
 
 flag: "pwn.college{A7CFOKo-CYwiVuer7B_7f1cMsmS.0FM2IDL0QTMyUzW}"
 ______________________________________________________________________________________
