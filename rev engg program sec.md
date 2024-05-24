@@ -160,7 +160,7 @@ uWs7QeI9adkmsrssv
 uWs7QeIbadkmsrssv
 
 finaly command for answer
-'echo -e "\xA9\x77\xAE\x73\xB5\x69\xB9\x61\x62\xBA\x68\xB7\x6D\xAF\x73\xAF\x76" | ./babyrev_level6.0'
+`echo -e "\xA9\x77\xAE\x73\xB5\x69\xB9\x61\x62\xBA\x68\xB7\x6D\xAF\x73\xAF\x76" | ./babyrev_level6.0`
 flag: "pwn.college{cvcoqWTpHfpaw-Owt4ztLaCVQnf.0VM2IDL0QTMyUzW}"
 
 
