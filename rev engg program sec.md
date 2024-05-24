@@ -149,8 +149,24 @@ after swapping index
 exoexted result
 '49 4b 4e 4f 55 55 59 5d 82 86 88 8b 8d 93 93 93 96'
 
+A9 77 AE 73 B5 69 B9 61 62 BA 68 B7 76 AF 73 AF 6D
 
-flag: "pwn.college{A7CFOKo-CYwiVuer7B_7f1cMsmS.0FM2IDL0QTMyUzW}"
+
+uWs7QeI9....ŏ¬֗
+
+��ª�µµ¹badkmsrssv
+
+uWs7QeI9adkmsrssv
+uWs7QeIbadkmsrssv
+
+finaly command for answer
+'echo -e "\xA9\x77\xAE\x73\xB5\x69\xB9\x61\x62\xBA\x68\xB7\x6D\xAF\x73\xAF\x76" | ./babyrev_level6.0'
+flag: "pwn.college{cvcoqWTpHfpaw-Owt4ztLaCVQnf.0VM2IDL0QTMyUzW}"
+
+
+
+05 0b 4e 4f 51 58 59 6b 81 8b 93 93 93 95 96 a9 b1
+05 0b 4e 4f 51 58 59 6b 81 8b 93 93 93 95 96 a9 b1
 ______________________________________________________________________________________
 
 # level 6.1
