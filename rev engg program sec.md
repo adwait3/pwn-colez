@@ -190,3 +190,97 @@ echo -e "\x1c\x71\x0c\x6b\x09\x6d\x07\x67\x78\x15\x73\x0a\x6b\x00\x61\x06\x62" |
 
 
 flag: `pwn.college{kDAp2rjQYyTWIuFNBU_cz3d7YSW.0lM2IDL0QTMyUzW}`
+______________________________________________________________________________________
+
+# level 7.0
+
+expected output
+
+cd 4f 05 0e dd da 98 56 18 0b 97 d9 d0 56 03 0e 92 d6 cf 5e 0e 00 9b db d9 48 05 1b 9c
+
+processes ibvolved 
+>1. XOR even byte = 78 , odd byte = d0
+>2. XOR multiple of 3 =1c , one more = 58 , 2 more = c7
+>3. SWAP 6,4
+>4. XOR odd = a6 , even de
+>5. SWAP 3 , 20
+
+reversing swap 
+
+cd 4f 05 0e dd da 98 56 18 0b 97 d9 d0 56 03 0e 92 d6 cf 5e 0e 00 9b db d9 48 05 1b 9c
+
+reversing xor 
+
+13 e9 db a8 03 7c 46 f0 c6 ad 49 7f 0e f0 dd a8 4c 70 11 f8 d0 a6 45 7d 07 ee db bd 42
+
+swaping 6 and 4
+
+13 e9 db a8 46 7c 03 f0 c6 ad 49 7f 0e f0 dd a8 4c 70 11 f8 d0 a6 45 7d 07 ee db bd 42
+
+
+xor 3%
+
+0f b1 1c f0 5a bb 1f a8 61 b1 11 b8 12 a8 19 b4 14 b7 1c a0 67 b2 1d ba 1b b6 1c a1 1a
+
+
+xor 
+
+77 61 64 20 22 6b 67 78 18 61 69 68 6a 78 61 64 6c 67 64 70 1f 62 65 6d 65 56 64 71 62
+
+
+converting from hex gives us teh key 
+`123456789abcdefgh`
+
+13 e9 db a8 46 7c 03 f0 c6 ad 49 7f 0e f0 dd a8 4c 70 11 f8 d0 a6 45 7d 07 ee db bd 42
+0  1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
+
+13 a8 03 ad 0e a8 11 a6 07 bd
+`0f b4 1f b1 12 b4 0d ba 1b a1`
+
+
+e9 46 f0 49 f0 4c f8 a6 07 42
+`b1 1e a8 11 a8 14 a0 fe 5f 1a`
+
+
+db 7c c6 7f dd 70 d0 7d db
+`1c bb b1 b8 1a b7 17 ba 1c`
+
+0f b1 1c b4 1e bb 1f a8 b1 b1 11 b8 12 a8 1a b4 14 b7 0d a0 17 ba fe ba 1b 5f 1c a1 1a
+
+
+after xor 
+77 61 64 64 66 6b 67 78 c9 61 69 68 6a 78 62 64 6c 67 75 70 6f 6a 86 6a 63 8f 64 71 62
+
+
+"x77\x61\x64\x64\x66\x6b\x67\x78\x79\x61\x69\x68\x6a\x78\x62\x64\x6c\x67\x75\x70\x6f\x6a\x86\x6a\x63\x8f\x64\x71\x62"
+finnal command 
+```
+echo -e "\x77\x61\x64\x64\x66\x6b\x67\x78\x79\x61\x69\x68\x6a\x78\x62\x64\x6c\x67\x75\x70\x6f\x6a\x65\x6a\x63\x66\x64\x71\x62" | ./babyrev_level7.0
+```
+
+
+flag: `pwn.college{QdIgNS8Gad0cqeqN30dWIuZN5-s.01M2IDL0QTMyUzW}`
+
+______________________________________________________________________________________
+
+# level 7.1
+in this the even bits are xord with 9d 
+
+odd bits with 8f 
+
+
+  81 89 91 93 94 95 9a 9f e5 ed ee f2 f6 f8 fc fe ff
+
+  after xor
+  
+ 1c 71 0c 6b 09 6d 07 67 78 15 73 0a 6b 00 61 06 62
+
+
+finnal command 
+```
+echo -e "\x1c\x71\x0c\x6b\x09\x6d\x07\x67\x78\x15\x73\x0a\x6b\x00\x61\x06\x62" | ./babyrev_level6.1
+```
+
+
+flag: `pwn.college{kDAp2rjQYyTWIuFNBU_cz3d7YSW.0lM2IDL0QTMyUzW}`
+
