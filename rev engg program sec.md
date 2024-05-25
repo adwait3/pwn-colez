@@ -275,7 +275,9 @@ ________________________________________________________________________________
 
 # level 8.0
 expected result
-wwuuuqpponkgiggkffeeeddbaaa
+e8 b9 7b e4 85 b5 a5 ab ea dc 77 f2 bc 33 d9 2c 35 ed 23 05 2d 6d 2a 6f 0a ef 75 68 a1 53 3d a7 65 34 91 a1
+
+
 
 
 
