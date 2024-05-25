@@ -264,23 +264,32 @@ flag: `pwn.college{QdIgNS8Gad0cqeqN30dWIuZN5-s.01M2IDL0QTMyUzW}`
 ______________________________________________________________________________________
 
 # level 7.1
-in this the even bits are xord with 9d 
-
-odd bits with 8f 
-
-
-  81 89 91 93 94 95 9a 9f e5 ed ee f2 f6 f8 fc fe ff
-
-  after xor
-  
- 1c 71 0c 6b 09 6d 07 67 78 15 73 0a 6b 00 61 06 62
+expected result
+wwuuuqpponkgiggkffeeeddbaaa
 
 
-finnal command 
-```
-echo -e "\x1c\x71\x0c\x6b\x09\x6d\x07\x67\x78\x15\x73\x0a\x6b\x00\x61\x06\x62" | ./babyrev_level6.1
-```
 
 
-flag: `pwn.college{kDAp2rjQYyTWIuFNBU_cz3d7YSW.0lM2IDL0QTMyUzW}`
+flag: `pwn.college{I-ClQh5noCs-WSFLL8LnDkKxPjn.0FN2IDL0QTMyUzW}`
+______________________________________________________________________________________
+
+# level 8.0
+expected result
+wwuuuqpponkgiggkffeeeddbaaa
+
+
+
+
+flag: `pwn.college{I-ClQh5noCs-WSFLL8LnDkKxPjn.0FN2IDL0QTMyUzW}`
+
+______________________________________________________________________________________
+
+# level 8.1
+expected result
+wwuuuqpponkgiggkffeeeddbaaa
+
+
+
+
+flag: `pwn.college{I-ClQh5noCs-WSFLL8LnDkKxPjn.0FN2IDL0QTMyUzW}`
 
