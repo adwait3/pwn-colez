@@ -274,12 +274,34 @@ flag: `pwn.college{I-ClQh5noCs-WSFLL8LnDkKxPjn.0FN2IDL0QTMyUzW}`
 ______________________________________________________________________________________
 
 # level 8.0
+
 expected result
+
 e8 b9 7b e4 85 b5 a5 ab ea dc 77 f2 bc 33 d9 2c 35 ed 23 05 2d 6d 2a 6f 0a ef 75 68 a1 53 3d a7 65 34 91 a1
 
+after reversal
 
+a1 91 34 65 a7 3d 53 a1 68 75 ef 0a 6f 2a 6d 2d 05 23 ed 35 2c d9 33 bc f2 77 dc ea ab a5 b5 85 e4 7b b9 e8
 
+after modulo 5 
 
+4c 8a 1b d6 09 d0 48 8e db db 02 11 40 99 c3 c0 1e 0c 5e 9b c1 c2 1c 0f 5c 9a c7 c5 18 0b 58 9e cb c8 17 05
+
+after swap 
+
+4c 8a d0 d6 09 1b 48 8e db db 02 11 40 99 c3 c0 1e 0c 5e 9b c1 c2 1c 0f 5c 9a c7 c5 18 0b 58 9e cb c8 17 05
+
+after modulo 3
+
+c1 1f 35 5b 9c fe c5 1b 3e 56 97 f4 cd 0c 26 4d 8b e9 d3 0e 24 4f 89 ea d1 0f 22 48 8d ee d5 0b 2e 45 82 e0
+
+after modulo 3
+
+14 92 ea 8e 11 21 10 96 e1 83 1a 2b 18 81 f9 98 06 36 06 83 fb 9a 04 35 04 82 fd 9d 00 31 00 86 f1 90 0f 3f
+
+after modulo 6 
+
+63 63 63 66 67 67 67 67 68 6b 6c 6d 6f 70 70 70 70 70 71 72 72 72 72 73 73 73 74 75 76 77 77 77 78 78 79 79
 
 
 flag: `pwn.college{I-ClQh5noCs-WSFLL8LnDkKxPjn.0FN2IDL0QTMyUzW}`
