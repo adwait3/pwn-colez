@@ -303,16 +303,39 @@ after modulo 6
 
 63 63 63 66 67 67 67 67 68 6b 6c 6d 6f 70 70 70 70 70 71 72 72 72 72 73 73 73 74 75 76 77 77 77 78 78 79 79
 
+final key 
 
-flag: `pwn.college{I-ClQh5noCs-WSFLL8LnDkKxPjn.0FN2IDL0QTMyUzW}`
+pwn.college{I-ClQh5noCs-WSFLL8LnDkKxPjn.0FN2IDL0QTMyUzW}
+
+flag: `pwn.college{wtHH4NT0hpjANejMrc_18sl3GfW.0VN2IDL0QTMyUzW}`
 
 ______________________________________________________________________________________
 
 # level 8.1
+
 expected result
-wwuuuqpponkgiggkffeeeddbaaa
 
+31 48 eb 01 3c 40 e6 0f 3c 44 e4 0c 3f 40 2f 0f 3b 5d fe 10 26 5f fd 14 27 58 fb 17 2c 54 f7 1e e3 53 f0
 
+after reversal 
+
+f0 53 e3 1e f7 54 2c 17 fb 58 27 14 fd 5f 26 10 fe 5d 3b 0f 2f 40 3f 0c e4 44 3c 0f e6 40 3c 01 eb 48 31
+
+after swapping 
+
+0f 53 F7 54 e3 1E 2C 17 FB 58 27 14 FD 5F 26 10 FE 5D 3B f0 2F 40 3F 0C E4 44 3C 0F E6 40 3C 01 EB 48 31
+
+after xor 
+
+91 61 4B 66 66 66 67 6F 6A 6A 6C 6C 6C 6D 6D 68 6F 6F 70 77 BE 72 74 74 75 76 77 77 77 72 77 79 7A 7A 7A
+
+9E 61 BC 2C 72 2C 67 6F 6A 6A 6C 6C 6C 6D 6D 68 6F 6F 70 88 BE 72 74 74 75 76 77 77 77 72 77 79 7A 7A 7A
+
+after swap
+
+91 61 4B 66 66 66 67 6F 6A 6A 6C 6C 6C 6D 6D 68 6F 6F 70 77 BE 72 74 74 75 76 77 77 77 72 77 79 7A 7A 7A
+
+9E 61 BC 2C 72 2C 67 6F 6A 6A 6C 6C 6C 6D 6D 68 6F 6F 70 88 BE 72 74 74 75 76 77 77 77 72 77 79 7A 7A 7A
 
 
 flag: `pwn.college{I-ClQh5noCs-WSFLL8LnDkKxPjn.0FN2IDL0QTMyUzW}`
