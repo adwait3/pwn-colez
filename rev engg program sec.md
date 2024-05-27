@@ -391,8 +391,6 @@ steps
 >4. put rest as 0 as they are unecessary
 
 
-
-
 flag: `pwn.college{M3TDXAZuCr4E1AKVmFmhLirGDjA.0VO2IDL0QTMyUzW}`
 
 
@@ -419,7 +417,7 @@ steps
 >4. put address for second as `2d15`
 >5. put byte as 74
 
-lag: `pwn.college{ccfylxRASgoKdARmzuDM-0GMcT3.0VM3IDL0QTMyUzW}`
+flag: `pwn.college{ccfylxRASgoKdARmzuDM-0GMcT3.0VM3IDL0QTMyUzW}`
 ______________________________________________________________________________________
 
 # level 11.1
