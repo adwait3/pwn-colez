@@ -358,10 +358,10 @@ in our case we want to change that jnz(condition jmp) to jz now we see the hex c
 in this we see 75 that is basically the jnz to change  it to jz we change that byte to 74.
 
 steps 
->run the file
->put adress as `1de1`
->put byte as 74
->put rest as 0 as they are unecessary
+>1. run the file
+>2. put adress as `1de1`
+>3. put byte as 74
+>4. put rest as 0 as they are unecessary
 
 
 
