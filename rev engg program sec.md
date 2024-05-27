@@ -340,3 +340,64 @@ after swap
 
 flag: `pwn.college{I-ClQh5noCs-WSFLL8LnDkKxPjn.0FN2IDL0QTMyUzW}`
 
+
+______________________________________________________________________________________
+
+# level 9.0
+expected result
+1A F6 0E CD 6E A6 82 1B  1E 39 DA F9 1C 73 D7 69
+
+first we take the file and see source code and figure out the part which needs patching.
+
+![patch](https://github.com/adwait3/pwn-colez/assets/148553626/a8f8b634-9472-4f5e-b6f2-3cfa8f95c367)
+
+in our case we want to change that jnz(condition jmp) to jz now we see the hex code
+
+![hex](https://github.com/adwait3/pwn-colez/assets/148553626/b5a81322-47c8-4057-84ba-de06f4338033)
+
+in this we see 75 that is basically the jnz to change  it to jz we change that byte to 74.
+
+steps 
+>run the file
+>put adress as `1de1`
+>put byte as 74
+>put rest as 0 as they are unecessary
+
+
+
+flag: `pwn.college{4tVxSLg5WPdFBWzx5lJE9rXJtKZ.01N2IDL0QTMyUzW}`
+
+______________________________________________________________________________________
+
+# level 7.1
+expected result
+wwuuuqpponkgiggkffeeeddbaaa
+
+
+
+
+flag: `pwn.college{I-ClQh5noCs-WSFLL8LnDkKxPjn.0FN2IDL0QTMyUzW}`
+
+
+______________________________________________________________________________________
+
+# level 7.1
+expected result
+wwuuuqpponkgiggkffeeeddbaaa
+
+
+
+
+flag: `pwn.college{I-ClQh5noCs-WSFLL8LnDkKxPjn.0FN2IDL0QTMyUzW}`
+
+
+______________________________________________________________________________________
+
+# level 7.1
+expected result
+wwuuuqpponkgiggkffeeeddbaaa
+
+
+
+
+flag: `pwn.college{I-ClQh5noCs-WSFLL8LnDkKxPjn.0FN2IDL0QTMyUzW}`
