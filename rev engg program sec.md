@@ -398,11 +398,33 @@ flag: `pwn.college{M3TDXAZuCr4E1AKVmFmhLirGDjA.0VO2IDL0QTMyUzW}`
 
 ______________________________________________________________________________________
 
-# level 7.1
-expected result
-wwuuuqpponkgiggkffeeeddbaaa
+# level 10.1
+steps 
+>1. run the file
+>2. put adress as `269e`
+>3. put byte as 74
+>4. put rest as 0 as they are unecessary
+flag: `pwn.college{wkDyuFZRkMjp5uTv_mMOBl0eYd6.0FM3IDL0QTMyUzW}`
+______________________________________________________________________________________
 
+# level 11.0
 
+in this level there is extra integreti hash also so we have to bypass that too.
 
+steps 
+>1. run the file
+>2. put address as `1f3f`
+>3. put byte as 74
+>4. put address for second as `2d15`
+>5. put byte as 74
+flag: `pwn.college{ccfylxRASgoKdARmzuDM-0GMcT3.0VM3IDL0QTMyUzW}`
+______________________________________________________________________________________
 
-flag: `pwn.college{I-ClQh5noCs-WSFLL8LnDkKxPjn.0FN2IDL0QTMyUzW}`
+# level 11.1
+steps 
+>1. run the file
+>2. put address as `223b`
+>3. put byte as 74
+>4. put address for second as `215a`
+>5. put byte as 84
+flag: `pwn.college{05jmNNjb5KPxGC7mKIY9a-1Gj7n.0lM3IDL0QTMyUzW}`
