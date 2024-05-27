@@ -404,6 +404,7 @@ steps
 >2. put adress as `269e`
 >3. put byte as 74
 >4. put rest as 0 as they are unecessary
+
 flag: `pwn.college{wkDyuFZRkMjp5uTv_mMOBl0eYd6.0FM3IDL0QTMyUzW}`
 ______________________________________________________________________________________
 
@@ -417,7 +418,8 @@ steps
 >3. put byte as 74
 >4. put address for second as `2d15`
 >5. put byte as 74
-flag: `pwn.college{ccfylxRASgoKdARmzuDM-0GMcT3.0VM3IDL0QTMyUzW}`
+
+lag: `pwn.college{ccfylxRASgoKdARmzuDM-0GMcT3.0VM3IDL0QTMyUzW}`
 ______________________________________________________________________________________
 
 # level 11.1
@@ -427,4 +429,5 @@ steps
 >3. put byte as 74
 >4. put address for second as `215a`
 >5. put byte as 84
+
 flag: `pwn.college{05jmNNjb5KPxGC7mKIY9a-1Gj7n.0lM3IDL0QTMyUzW}`
