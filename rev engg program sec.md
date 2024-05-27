@@ -369,26 +369,31 @@ flag: `pwn.college{4tVxSLg5WPdFBWzx5lJE9rXJtKZ.01N2IDL0QTMyUzW}`
 
 ______________________________________________________________________________________
 
-# level 7.1
-expected result
-wwuuuqpponkgiggkffeeeddbaaa
+# level 9.1
+steps 
+>1. run the file
+>2. put adress as `1e14`
+>3. put byte as 74
+>4. put rest as 0 as they are unecessary
 
 
 
-
-flag: `pwn.college{I-ClQh5noCs-WSFLL8LnDkKxPjn.0FN2IDL0QTMyUzW}`
+flag: `pwn.college{E5b82AgKClGnhe0D7hpYFwch-dh.0FO2IDL0QTMyUzW}`
 
 
 ______________________________________________________________________________________
 
-# level 7.1
-expected result
-wwuuuqpponkgiggkffeeeddbaaa
+# level 10.0
+steps 
+>1. run the file
+>2. put adress as `1db5`
+>3. put byte as 74
+>4. put rest as 0 as they are unecessary
 
 
 
 
-flag: `pwn.college{I-ClQh5noCs-WSFLL8LnDkKxPjn.0FN2IDL0QTMyUzW}`
+flag: `pwn.college{M3TDXAZuCr4E1AKVmFmhLirGDjA.0VO2IDL0QTMyUzW}`
 
 
 ______________________________________________________________________________________
