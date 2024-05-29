@@ -1,4 +1,4 @@
-![image](https://github.com/adwait3/pwn-colez/assets/148553626/c4247e3e-0abc-4980-a2c2-d46556f40eb2)_________________________________________________________________
+__________________________________________________________________________
 # level 1.0
 opened the program in ghidra and found a variable named expected result so opeened it and foun the value to be 
 ```
@@ -321,24 +321,23 @@ after reversal
 
 f0 53 e3 1e f7 54 2c 17 fb 58 27 14 fd 5f 26 10 fe 5d 3b 0f 2f 40 3f 0c e4 44 3c 0f e6 40 3c 01 eb 48 31
 
-after swapping 
+after swapping (7, 15)(2,20)
 
-0f 53 F7 54 e3 1E 2C 17 FB 58 27 14 FD 5F 26 10 FE 5D 3B f0 2F 40 3F 0C E4 44 3C 0F E6 40 3C 01 EB 48 31
+0  1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34
 
-after xor 
+f0 53 2f 1e f7 54 2c 10 fb 58 27 14 fd 5f 26 17 fe 5d 3b 0f e3 40 3f 0c e4 44 3c 0f e6 40 3c 01 eb 48 31
 
-91 61 4B 66 66 66 67 6F 6A 6A 6C 6C 6C 6D 6D 68 6F 6F 70 77 BE 72 74 74 75 76 77 77 77 72 77 79 7A 7A 7A
+after xor mod 4
 
-9E 61 BC 2C 72 2C 67 6F 6A 6A 6C 6C 6C 6D 6D 68 6F 6F 70 88 BE 72 74 74 75 76 77 77 77 72 77 79 7A 7A 7A
+61 61 64 66 66 66 67 68 6A 6A 6C 6C 6C 6D 6D 6F 6F 6F 70 77 72 72 74 74 75 76 77 77 77 72 77 79 7A 7A 7A
 
-after swap
+after swap (19,29)
 
-91 61 4B 66 66 66 67 6F 6A 6A 6C 6C 6C 6D 6D 68 6F 6F 70 77 BE 72 74 74 75 76 77 77 77 72 77 79 7A 7A 7A
+61 61 64 66 66 66 67 68 6A 6A 6C 6C 6C 6D 6D 6F 6F 6F 70 72 72 72 74 74 75 76 77 77 77 77 77 79 7A 7A 7A
 
-9E 61 BC 2C 72 2C 67 6F 6A 6A 6C 6C 6C 6D 6D 68 6F 6F 70 88 BE 72 74 74 75 76 77 77 77 72 77 79 7A 7A 7A
+rest is bubble sort and reversal which can be ignored.
 
-
-flag: `pwn.college{I-ClQh5noCs-WSFLL8LnDkKxPjn.0FN2IDL0QTMyUzW}`
+flag: `pwn.college{sjIXxOVcB4lSgirndF8kRPUn0wj.0lN2IDL0QTMyUzW}`
 
 
 ______________________________________________________________________________________
